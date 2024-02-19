@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: plum;
+    padding: 20px;
+}
+
+nav {
+    background-color: plum;
+
+
+}
+
+nav ul {
+    text-align: center;
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    justify-content: center;
+    padding: 1%;
+
+
+}
+
+nav ul a {
+    text-decoration: none
+}
+
+
+.menu {
+    width: 30%;
+    border-radius: 10px;
+    padding: 15PX;
+
+    border-style: outset;
+    margin-top: 10PX;
+    
+    
+}
+.menu ul {
+    list-style: none;
+    
+
+    
+}
+    
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .menu {
+
+
+        width: 45%;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .menu {
+
+
+        width: 90%;
+
+    }
+}
+
+.menu img {
+
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    width: 95%;
+  background-color: rgb(136, 132, 132);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  margin-bottom: 10PX;
+ 
+}
+
+.Macarte {
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.appetizer h2 {
+    text-align: center;
+
+}
+
+.appetizer {
+    padding: 2%;
+}
+
+.menu > ul > li {
+
+    display: flex;
+flex-direction: column-reverse;
+
+}
+h2{
+    text-align: center;
+    color: rgb(231, 53, 231);
+    padding: 20px;
+}
+h3{
+    text-align: center;
+    color:rgb(231, 53, 231);
+    padding: 20px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(136, 132, 132);
+}
+.contact{
+    text-align: center;
+    background-color: rgb(136, 132, 132);
+    padding: 20px;
+    
+   
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    color: plum;
+    padding: 20px;
+    
+
+}
